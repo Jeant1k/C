@@ -1,0 +1,38 @@
+job_id_1:
+    id: 1
+    child: 4
+    child: 6
+    path: "./timer.out"
+job_id_2:
+    id: 2
+    child: 5
+    path: "./timer.out"
+job_id_3:
+    id: 3
+    child: 4
+    child: 5
+    path: "./timer.out"
+job_id_4:
+    id: 4
+    child: 7
+    path: "./timer.out"
+    barrier: "1"
+job_id_5:
+    id: 5
+    child: 6
+    child: 7
+    child: 8
+    path: "./timer.out"
+    barrier: "1"
+job_id_6:
+    id: 6
+    child: -1
+    path: "./timer.out"
+job_id_7:
+    id: 7
+    child: -1
+    path: "./timer.out"
+job_id_8:
+    id: 8
+    child: -1
+    path: "./timer.out"
